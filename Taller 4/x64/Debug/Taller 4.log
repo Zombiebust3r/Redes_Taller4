@@ -1,0 +1,6 @@
+﻿  Main.cpp
+c:\users\daniel\source\repos\taller 4\taller 4\main.cpp(184): warning C4244: 'argumento': conversión de '::size_t' a 'float'; posible pérdida de datos
+c:\users\daniel\source\repos\taller 4\taller 4\main.cpp(201): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+c:\users\daniel\source\repos\taller 4\taller 4\main.cpp(204): warning C4101: 'serv': variable local sin referencia
+  Taller 4.vcxproj -> c:\users\daniel\Source\Repos\Taller 4\x64\Debug\Taller 4.exe
+  Taller 4.vcxproj -> c:\users\daniel\Source\Repos\Taller 4\x64\Debug\Taller 4.pdb (Partial PDB)

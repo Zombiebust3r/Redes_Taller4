@@ -1,0 +1,4 @@
+﻿  Main.cpp
+c:\users\daniel\source\repos\taller 4\boostrapserver\main.cpp(47): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  BoostrapServer.vcxproj -> c:\users\daniel\Source\Repos\Taller 4\x64\Debug\BoostrapServer.exe
+  BoostrapServer.vcxproj -> c:\users\daniel\Source\Repos\Taller 4\x64\Debug\BoostrapServer.pdb (Partial PDB)
