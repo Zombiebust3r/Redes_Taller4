@@ -103,7 +103,8 @@ void nonBlockedComunication() {
 		//Receive:
 		//Si no recibo nada paso == NOT READY
 		//Si recibo algo lo proceso == DONE
-
+		std::vector<int> pos;
+		bool deletePeer = false;
 		for (int i = 0; i < peers.size(); i++) {
 
 			std::size_t receivedData;
@@ -123,8 +124,13 @@ void nonBlockedComunication() {
 
 			}
 			else if (st == sf::Socket::Status::Disconnected) {
-				//CONVERSACION TERMINADA
-				break;
+				deletePeer = true;
+				pos.push_back(i);
+			}
+		}
+		if (deletePeer) {
+			for (int i = pos.size() - 1; i >= 0; i--) {
+				peers.erase(peers.begin() + pos[i]);
 			}
 		}
 
